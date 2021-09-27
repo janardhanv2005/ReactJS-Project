@@ -54,3 +54,84 @@ npm > node package manager
 
 /////////
 JSON > JavaScript Object Notation
+
+var data = [
+    {
+        id:1,
+        name:'John',
+        city:'Delhi'
+    },
+    {
+        id:1,
+        name:'Ankit',
+        city:'Amsterdam',
+        country:'Netherlands'
+    }
+]
+
+///////////////////////////////////
+Package.json
+///////////////////////////////////
+> Entry point to application
+> contains meta data(name,version,description)
+> commands(start,stop,build)
+> packages(what all packages we have for our application)
+
+
+
+///////////////////////////////////
+Step to generate Package.json
+///////////////////////////////////
+**NodeJs must be installed
+> go inside the folder using cmd
+> npm init
+> Answer all questions
+> type "yes"
+
+///////////////////////////////////
+Step to install packages
+///////////////////////////////////
+> go inside the folder using cmd
+> npm i package name
+
+///////////////////////////////////
+Step to generate react app
+///////////////////////////////////
+
+#window (admin access)
+(One Time Step)
+> open the cmd as administrator
+> npm i -g create-react-app
+> after install close cmd
+
+(next all time)
+> open cmd
+> go inside the folder where you want app
+> create-react-app appname
+
+-------------------------
+#mac/linux (admin access)
+(One Time Step)
+> open terminal
+> sudo npm i -g create-react-app
+> after install close terminal
+
+(next all time)
+> open terminal
+> go inside the folder
+> create-react-app appname
+
+-------------------------
+#office laptop (no admin access)
+> open cmd
+> go inside the folder
+> npx create-react-app appname
+
+
+///////////////////////////////////
+Step to run react app
+///////////////////////////////////
+> open cmd/terminals
+> go inside the app folder
+> npm start
+> http://localhost:3000/
