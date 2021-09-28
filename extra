@@ -135,3 +135,9 @@ Step to run react app
 > go inside the app folder
 > npm start
 > http://localhost:3000/
+
+
+////////
+react  > its the main package of react
+react-dom > this help to render the component in html
+react-script > to start the application
