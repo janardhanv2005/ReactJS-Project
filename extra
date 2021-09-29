@@ -141,3 +141,10 @@ Step to run react app
 react  > its the main package of react
 react-dom > this help to render the component in html
 react-script > to start the application
+
+npm start
+npm run kiran
+
+//////////
+block > always start from the new line
+inline > start in the same line
