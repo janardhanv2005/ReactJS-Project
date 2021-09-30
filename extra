@@ -148,3 +148,43 @@ npm run kiran
 //////////
 block > always start from the new line
 inline > start in the same line
+
+/////Css//////////
+inline > inside html tag
+styletag > head of the page
+stylesheet > seperate css file
+
+inline > styletag > stylesheet
+
+
+h1
+
+inline{
+    color:red;
+    font-size:20px;
+}
+
+styletag{
+     color:orange;
+     text-align:center
+}
+
+sheettag{
+     color:teal;
+     font-size:30px;
+     font-weight:bold;
+     text-align:right
+}
+
+
+{
+    color:red;
+    font-size:20px;
+    text-align:center;
+    font-weight:bold;
+}
+
+/////////target in css//////
+tagname > h1 ,p
+id > #   (unique)
+class > . (common)
