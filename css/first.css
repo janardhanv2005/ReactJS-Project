@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+#mainText{
+    color:rgb(104, 142, 247);
+    font-size:20px;
+}
+
+.card{
+    width:23%;
+    float:left;
+    background-color: #581845;
+    margin:1%;
+    height:320px;
+    overflow: scroll;
+}
+.color2{
+    background-color: #0d7466;
+}
+.color3{
+    background-color: #e73c75;
+}
+.color4{
+    background-color: #be9a22;
+}
+.innerDiv{
+    text-align: center;
+    margin-top:4%;
+    color:white
+}
+#firstHeading{
+    text-align: center;
+    background-color:#581845;
+    color:white
+}
