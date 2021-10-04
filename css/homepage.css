@@ -1,0 +1,59 @@
+body{
+    margin: auto
+}
+
+#search{
+    height:500px;
+    width:100%;
+    background-image:url('https://i.ibb.co/Jv1Ckhg/manali.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 500px;
+}
+
+#brand{
+    display: inline-block;
+    margin-left:5%;
+    margin-top:1%;
+    font-size: 30px;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.social{
+    display: inline-block;
+    margin-left: 70%;
+}
+
+.socialIcon{
+    height:50px;
+    width:50px;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left:45%;
+    margin-top:4%;
+    text-align: center;
+    font-size: 110px;
+}
+
+#logo > span{
+    color:#9ec917;
+    margin-left: -4%;
+    margin-top: 1%;
+    position: absolute;
+}
+
+#heading{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    background-color: #7faa21;
+    width:30%;
+    margin: auto;
+    margin-top: 2%;
+}
