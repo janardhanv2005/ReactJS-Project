@@ -189,3 +189,9 @@ sheettag{
 tagname > h1 ,p
 id > #   (unique)
 class > . (common)
+
+grid
+xs < 768px
+sm > 768
+md > 992
+lg > 1200

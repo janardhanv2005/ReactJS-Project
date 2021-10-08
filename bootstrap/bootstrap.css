@@ -1,0 +1,33 @@
+.btn-info{
+    background-color: magenta !important;
+}
+
+.btn-info:hover{
+    background-color: rgb(231, 148, 231);
+}
+
+
+#first{
+    height:200px;
+    background-color:lightcoral
+}
+#second{
+    height:200px;
+    background-color:rgb(165, 243, 157)
+}
+#third{
+    height:200px;
+    background-color:rgb(238, 177, 230)
+}
+#four{
+    height:200px;
+    background-color:rgb(128, 223, 240)
+}
+#five{
+    height:200px;
+    background-color:rgb(247, 199, 111)
+}
+#six{
+    height:200px;
+    background-color:rgb(238, 245, 148)
+}
