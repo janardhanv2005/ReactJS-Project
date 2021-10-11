@@ -31,3 +31,12 @@
     height:200px;
     background-color:rgb(238, 245, 148)
 }
+
+.glyphicon-trash{
+    font-size:25px;
+    color:red
+}
+.glyphicon-edit{
+    font-size:25px;
+    color:green
+}
