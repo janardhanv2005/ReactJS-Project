@@ -9,7 +9,6 @@ https://github.com/Aakashdeveloper/oct_react_mrng_21
 > Git history
 > git lens
 > eslint
-
 html
 css
 bootstrap 3,4,5
@@ -190,8 +189,24 @@ tagname > h1 ,p
 id > #   (unique)
 class > . (common)
 
+bootstrap 3
 grid
 xs < 768px
 sm > 768
 md > 992
 lg > 1200
+
+bootstrap 4
+col- < 576
+sm >576
+md >768px
+lg > 992
+xl > 1200
+
+bootstrap 5
+xs < 576
+sm > 576
+md >768px
+lg > 992
+xl > 1200
+xxl >1400
