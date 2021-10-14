@@ -1,18 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//var React = require('react');
-
-//build component
+import Header from './Header';
+import Footer from './Footer';
 
 const App = () => {
     return (
-        <h1>This is React App</h1>
+        <>
+            <Header/>
+            <h1>This is React App</h1>
+            <h2>Hiiiii</h2>
+            <Footer/>
+        </>
     )
 }
 
 ReactDOM.render(<App/>,document.getElementById('root'))
 
 /*
+//var React = require('react');
+
+//build component
 function App(){
     return (
          <h1>Hiii From react</h1>

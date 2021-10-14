@@ -210,3 +210,39 @@ md >768px
 lg > 992
 xl > 1200
 xxl >1400
+
+funtion add(a,b){
+    var out = [a,b]
+    return out
+}
+
+add(1,2)
+[1,2]
+
+//////////////
+functional
+> dumb component
+> we use for display purposes
+> we dont add logic there
+> we cannot call Api
+> we cannot maintain state
+
+class
+> logical component
+> we can also use for display 
+> we can call Api and maintain state
+
+hooks 
+
+///////////
+state
+> local variables
+> scope of a state is in one component only
+> we can update value of state
+> mutable
+
+props
+> help to transfer data from one component to another
+  (component must be nested)
+> we cannot update the value of props
+> immutable
