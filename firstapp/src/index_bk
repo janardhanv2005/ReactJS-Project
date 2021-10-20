@@ -1,0 +1,17 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './component/Header';
+import Footer from './component/Footer';
+
+const App = () => {
+    return (
+        <>
+            <Header/>
+            <h1>This is React App</h1>
+            <h2>Hiiiii</h2>
+            <Footer/>
+        </>
+    )
+}
+
+ReactDOM.render(<App/>,document.getElementById('root'))
