@@ -15,7 +15,7 @@ class Home extends Component {
     filterProduct = (userInput) => {
         //console.log(userInput);
         var output = this.state.products.filter((data) => {
-            return data.name.toLowerCase().indexOf(userInput.toLowerCase()) > -1;
+            return data.name.toLowerCase().indexOf(userInput.toLowerCase()) > -1 || data.description.toLowerCase().indexOf(userInput.toLowerCase()) > -1 ;
         })
         this.setState({ filtered: output });
     }
