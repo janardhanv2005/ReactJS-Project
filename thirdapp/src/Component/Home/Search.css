@@ -44,7 +44,7 @@ body{
 #logo > span{
     color:#9ec917;
     margin-left: -4%;
-    margin-top: 1%;
+    margin-top: -1%;
     position: absolute;
 }
 
@@ -73,8 +73,6 @@ select{
     width:57%;
     margin-left: 2%;
 }
-
-
 
 @media screen and (max-width:1600px){
     body{
