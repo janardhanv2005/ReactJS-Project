@@ -15,7 +15,7 @@ class Listing extends Component {
     componentDidMount() {
         const hotelId = this.props.match.params.id;
         console.log(hotelId);
-        fetch
+        
 
     }
 }
