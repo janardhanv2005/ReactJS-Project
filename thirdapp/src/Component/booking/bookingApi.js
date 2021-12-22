@@ -11,6 +11,13 @@ class Booking extends Component {
         }
     }
     render(){
+        if(!sessionStorage.getItem('userdata')){
+            return (
+                <div>
+                    <h1>Login First To See Your Booking</h1>
+                </div>
+            )
+        }
         return(
             <>
             <BookingDisplay bookData={this.state.bookings}/>
@@ -21,11 +28,15 @@ class Booking extends Component {
     //api call 
     componentDidMount(){
         console.log("TTTTT")
-        axios.get(url).then((res) => {
-            this.setState({bookings:res.data})
-            console.log("TEST")
-            console.log(this.state.bookings)
-        })
+        if(sessionStorage.getItem('userdata')){
+            let email = sessionStorage.getItem('userdata').split(',')[1];
+            axios.get(`${url}?email=${email}`).then((res) => {
+                this.setState({bookings:res.data})
+                console.log("TEST")
+                console.log(this.state.bookings)
+            })
+        }
+        
     }
 }
 
